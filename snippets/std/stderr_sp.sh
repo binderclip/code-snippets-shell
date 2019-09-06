@@ -20,3 +20,6 @@ echo $OUTPUT
 
 echo "ERROR:"
 echo $ERROR
+
+echo "== stderr > null =="
+banana 2>/dev/null
